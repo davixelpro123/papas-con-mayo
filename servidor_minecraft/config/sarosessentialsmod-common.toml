@@ -1,0 +1,209 @@
+
+["Teleportation Settings"]
+	#Enable/disable teleport to spawn on player join
+	teleportToSpawnOnJoin = true
+
+[Messages]
+	#Enable/disable custom first join message
+	customFirstJoinMessageEnabled = false
+	#Custom first join message
+	customFirstJoinMessage = "Welcome {PLAYER} to the server for the first time!"
+	#Enable/disable custom join message
+	customJoinMessageEnabled = false
+	#Custom join message
+	customJoinMessage = "Welcome back {PLAYER}!"
+	#Enable/disable custom leave message
+	customLeaveMessageEnabled = false
+	#Custom leave message
+	customLeaveMessage = "Goodbye {PLAYER}! See you next time!"
+
+["Design (white, yellow, light_purple, red, aqua, green, blue, dark_gray, gray, gold, dark_purple, dark_red, dark_aqua, dark_green, dark_blue, black)"]
+	#The color of the chat without feedback
+	standard = "gold"
+	#The color of the chat as warning/if command not correct
+	warning = "dark_red"
+	#The color of the chat as error
+	error = "dark_red"
+	#The color of the chat as success
+	success = "green"
+	#The color of playernames in commands
+	playername = "aqua"
+	#The color of sendernames in commands
+	sendername = "blue"
+
+[General]
+	#Set custom /broadcast Prefix
+	BroadcastPrefix = "Broadcast"
+
+[Commands]
+	#Enable/disable the /Workbench command
+	day = true
+	#OP-only /Workbench command
+	opWorkbench = true
+	#Enable/disable the /night command
+	night = true
+	#Enable/disable the /sun command
+	sun = true
+	#Enable/disable the /rain command
+	rain = true
+	#Enable/disable the /thunder command
+	thunder = true
+	#Enable/disable the /ec command
+	ec = true
+	#Enable/disable the /skull command
+	skull = true
+	#Enable/disable the /god command
+	god = true
+	#Enable/disable the /fly command
+	fly = true
+	#Enable/disable the /delete command
+	delete = true
+	#Enable/disable the /invsee command
+	invsee = true
+	#Enable/disable the /gm command
+	gm = true
+	#Enable/disable the /broadcast command
+	broadcast = true
+	#Enable/disable the /feed command
+	feed = true
+	#Enable/disable the /heal command
+	heal = true
+	#Enable/disable the /cleanh command
+	cleanh = true
+	#Enable/disable the /clean command
+	clean = true
+	#Enable/disable the /clear command
+	clear = true
+	#Enable/disable the /glow command
+	glow = true
+	#Enable/disable the /addlore command
+	addlore = true
+	#Enable/disable the /setlore command
+	setlore = true
+	#Enable/disable the /removelore command
+	removelore = true
+	#Enable/disable the /rename command
+	rename = true
+	#Enable/disable the /back command
+	back = true
+	#Enable/disable the /home command
+	home = true
+	#Enable/disable the /inventory command
+	inventory = true
+	#Enable/disable the /setspawn command
+	setspawn = true
+	#Enable/disable the /spawn command
+	spawn = true
+	#Enable/disable the /tempban command
+	tempban = true
+	#Enable/disable the /sudo command
+	sudo = true
+	#Enable/disable the /tpall command
+	tpall = true
+	#Enable/disable the /tphere command
+	tphere = true
+	#Enable/disable the /tpoffline command
+	tpoffline = true
+	#Enable/disable the /unbreakable command
+	unbreakable = true
+	#Enable/disable the /trash command
+	trash = true
+	#Enable/disable the /vanish command
+	vanish = true
+	#Enable/disable the /kit command
+	kit = true
+	#Enable/disable the /warp command
+	warp = true
+	#Enable/disable the Bank-System
+	bankSystem = true
+	#Enable/disable the /tpa command
+	tpa = true
+	#Enable/disable the /motd command
+	motd = true
+
+	[Commands.Op_Commands]
+		#OP-only /day command
+		opDay = true
+		#OP-only /night command
+		opNight = true
+		#OP-only /sun command
+		opSun = true
+		#OP-only /rain command
+		opRain = true
+		#OP-only /thunder command
+		opThunder = true
+		#OP-only /ec command
+		opEc = true
+		#OP-only /skull command
+		opSkull = true
+		#OP-only /god command
+		opGod = true
+		#OP-only /fly command
+		opFly = true
+		#OP-only /delete command
+		opDelete = true
+		#OP-only /invsee command
+		opInvsee = true
+		#OP-only /gm command
+		opGm = true
+		#OP-only /broadcast command
+		opBroadcast = true
+		#OP-only /feed command
+		opFeed = true
+		#OP-only /heal command
+		opHeal = true
+		#OP-only /cleanh command
+		opCleanh = true
+		#OP-only /clean command
+		opClean = true
+		#OP-only /clear command
+		opClear = true
+		#OP-only /glow command
+		opGlow = true
+		#OP-only /addlore command
+		opAddlore = true
+		#OP-only /setlore command
+		opSetlore = true
+		#OP-only /removelore command
+		opRemovelore = true
+		#OP-only /rename command
+		opRename = true
+		#OP-only /back command
+		opBack = true
+		#OP-only /home command
+		opHome = true
+		#OP-only /inventory command
+		opInventory = true
+		#OP-only /setspawn command
+		opSetspawn = true
+		#OP-only /spawn command
+		opSpawn = true
+		#OP-only /tempban command
+		opTempban = true
+		#OP-only /sudo command
+		opSudo = true
+		#OP-only /tpall command
+		opTpall = true
+		#OP-only /tphere command
+		opTphere = true
+		#OP-only /tpoffline command
+		opTpoffline = true
+		#OP-only /unbreakable command
+		opUnbreakable = true
+		#OP-only /trash command
+		opTrash = true
+		#OP-only /vanish command
+		opVanish = true
+		#OP-only /kit command
+		opKit = true
+		#OP-only /warp command
+		opWarp = true
+		#OP-only Bank-System
+		opBankSystem = true
+		#OP-only Pay-System
+		opPay = true
+		#OP-only /tpa command
+		opTpa = true
+		#OP-only /motd command
+		opmotd = true
+
